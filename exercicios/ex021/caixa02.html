@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: blue;
+            margin: 0px;
+
+        }
+        header{
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: cornflowerblue;
+            padding:3px;
+            box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.555);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            
+        
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+        
+        }
+        article{
+            background-color: cadetblue;
+            padding: 5px;
+            
+
+
+        }
+        aside{
+            background-color: rgb(76, 128, 129);
+            padding:5px;
+        }
+        footer{
+            background-color: beige;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        section#noticias{
+            box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.575);
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a> <br>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate odit rem necessitatibus blanditiis tenetur, nesciunt suscipit dolores, aspernatur perspiciatis soluta porro ipsa mollitia ducimus voluptates optio, at vitae alias iste!</p>
+            </article>
+            <aside>
+                <p>artigo escrito por jose da silva sauro</p>
+            </aside>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Rafael</p>
+    </footer>
+    
+</body>
+</html>

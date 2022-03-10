@@ -1,0 +1,32 @@
+
+/*configurando o formato das caixas div com class quadrado*/
+div.quadrado{
+
+    border:  2px solid black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: blue;
+}
+/*exemplos de background para cada div que está com seu próprio id*/
+div#q1 {
+    background-color: rgb(107, 173, 20);
+
+
+}
+/*criando degrader de cor de cima para baixo com bottom*/
+div#q2 {
+    background-image: linear-gradient(to bottom,yellow, red);
+
+
+}
+/*colocando uma imagem png de fundo de umas das divs*/
+div#q3 {
+    background-image: url('imagens/pattern001.png');
+
+}
+/*colocando uma imagem de fundo do corpo(body) em formato jpg*/
+body{
+    background-image: url(imagens/wallpaper001.jpg);
+}

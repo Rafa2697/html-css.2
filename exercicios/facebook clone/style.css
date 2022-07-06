@@ -1,0 +1,49 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f0f2f5;
+}
+
+.logo {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.logo img{
+    max-width: 250px;
+    width: 100%;
+}
+.box-login h3{
+    text-align: center;
+
+}
+
+.box-login-users{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box-login-users-single img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: block;
+}
+
+.box-login-users-single p{
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    background-color: white;
+    padding: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+
+}

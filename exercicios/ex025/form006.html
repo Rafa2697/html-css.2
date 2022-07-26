@@ -9,7 +9,25 @@
 <body>
     <h1>exemplo de formulario</h1>
     <form action="cadastro.php" method="get">
-        
+        <div>
+            <label for="icor">cor: </label>
+            <input type="color" name="cor" id="icor">
+        </div>
+
+        <div>
+            <label for="inivel">nivel de satisfação</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="5">
+        </div>
+
+        <div> <!--para usar esse input precisa ser usado sempre o method="post"-->
+            <label for="ifoto">foto perfil: </label>
+            <input type="file" name="foto" id="ifoto">
+        </div>
+
+        <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </div>
 
     </form>
     

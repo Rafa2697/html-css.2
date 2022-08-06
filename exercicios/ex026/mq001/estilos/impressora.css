@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*ESTILO PARA IMPRESSORA*/
+
+*{
+    margin: 10;
+    padding: 10px;
+
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu{
+    display: none;
+}
+
+article{
+    width: 100%;
+}
+
+article::after{
+    content: 'esse artigo foi impresso no dia 06/07/2022';
+}
